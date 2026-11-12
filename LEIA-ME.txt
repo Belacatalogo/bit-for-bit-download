@@ -1,0 +1,58 @@
+bit for bit — IPA para iPhone
+================================
+
+O que é
+-------
+App nativo que abre o site https://bit-for-bit-render.vercel.app
+dentro do iPhone. Não é um atalho. A conta, a senha e os dados
+continuam no próprio site. Este arquivo não lê notificação de
+banco. Não tem analytics, anúncio nem SDK de rastreio.
+
+Identidade
+----------
+Nome na tela inicial: bit for bit
+Bundle id: app.bitforbit.financeiro
+Extensão de compartilhar: app.bitforbit.financeiro.share
+Versão: 1.0.0 (build 1)
+iOS mínimo: 16
+Aparelho: iPhone em retrato. iPad abre, mas o alvo é o iPhone.
+Assinatura: ad hoc, sem conta Apple e sem assinatura de loja.
+O Feather substitui essa assinatura pelo seu certificado.
+
+Como instalar no Feather
+------------------------
+1. Passe o arquivo bit-for-bit.ipa para o iPhone (Arquivos, AirDrop ou iCloud).
+2. Abra o Feather e importe o IPA.
+3. Assine com o certificado e o perfil que você já usa.
+   Não precisa da conta da App Store neste arquivo.
+   Deixe o bundle id app.bitforbit.financeiro se o Feather permitir.
+   Não apague a pasta PlugIns: ela é o Compartilhar.
+4. Instale. Se o iOS pedir, confie no perfil em
+   Ajustes > Geral > VPN e gerenciamento de dispositivo.
+5. Abra "bit for bit". O site entra direto. Entre com o e-mail
+   e a senha em Ajustes, no próprio site.
+
+O que o app faz
+---------------
+- Abre o site, guarda cookies e localStorage entre uma abertura e outra.
+- Puxar para baixo atualiza a página.
+- Barra de status clara, no tema escuro.
+- Não deixa a página dar zoom sem querer.
+- Link de outro site abre no Safari. O bit for bit fica dentro do app.
+- Ícone: quadrado escuro com a palavra bit em teal.
+- Abertura: fundo #0E0D0B e o texto "bit for bit." em teal.
+
+Compartilhar uma compra
+-----------------------
+Na notificação do banco, toque em Compartilhar e escolha bit for bit.
+Também vale para o texto ou para a foto da notificação.
+O app abre o Assistente do site com a compra para você conferir:
+valor, loja, banco e se parece débito ou crédito, quando isso
+estiver escrito. Nada é salvo sozinho. O lançamento só entra
+se você confirmar no site.
+Se a foto não tiver texto legível, ela vai para o Assistente
+para a IA ler. A compra continua sem ser salva até você confirmar.
+Se "bit for bit" não aparecer em Compartilhar, assine de novo no
+Feather sem remover a extensão e reinstale.
+
+O site em si não foi alterado.
